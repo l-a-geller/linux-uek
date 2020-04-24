@@ -2988,5 +2988,7 @@ static inline int seal_check_future_write(int seals, struct vm_area_struct *vma)
 	return 0;
 }
 
+extern int sysctl_nr_trim_pages;
+
 #endif /* __KERNEL__ */
 #endif /* _LINUX_MM_H */
